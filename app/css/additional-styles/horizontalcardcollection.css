@@ -1,0 +1,125 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Adds slight upward movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Ends at the original position */
+  }
+}
+
+.horizontal-card-collection-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 20px 0; /* Margin around the card collection */
+  overflow: hidden; /* Hide any overflow to keep only 4 cards in view */
+}
+
+.horizontal-card-collection {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  padding: 20px;
+  gap: 16px; /* Space between cards */
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.horizontal-card-collection::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.card-link {
+  text-decoration: none; /* Remove underline from links */
+  display: flex; /* Flex display to make the entire card clickable */
+}
+
+.card {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease-in-out; /* Fade-in effect */
+  flex: 0 0 auto; /* Prevents flex items from shrinking */
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+  width: 300px;
+  height: 400px; /* Set a fixed height for the cards */
+  background-color: transparent; /* Transparent background to allow image to show */
+  position: relative; /* Position relative for text overlay */
+  border-radius: 10px;
+  overflow: hidden; /* Clip overflowing content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+  animation: fadeIn 0.8s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+.card.visible {
+  opacity: 1; /* Fully visible when scrolled into view */
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-5px); /* Slightly zoom in and lift the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire card area */
+  display: block;
+}
+
+.card-content {
+  position: absolute; /* Position absolute to overlay on the image */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for text */
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  background-color: white; /* White background for emphasis */
+  color: black; /* Black text */
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.scroll-button {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}
+
+.scroll-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+[data-aos=fade-up].aos-animate {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) !important;
+}

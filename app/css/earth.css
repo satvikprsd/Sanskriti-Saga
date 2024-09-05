@@ -1,0 +1,9 @@
+body {
+    background: none; /* Remove the black background */
+  }
+  
+  /* The canvas will now automatically fit the viewport */
+  canvas {
+    height: 100vh !important;
+  }
+  
