@@ -1,0 +1,21 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    font-size: 1.5rem; /* Increase font size */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust font size for emphasis */
+  }
+  
+  .footer span {
+    font-weight: bold; /* Make the hearts bold for emphasis */
+  }
+  
