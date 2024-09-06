@@ -19,7 +19,7 @@ export default function Features() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src='https://s3.filebin.net/filebin/56f830606502744b529deac7837e0b17443e8481d7d66f748d0f263c1967e65d/0e09c03750e27fcf3858af3d4da167b4ef427867e21154494c4d1cf282355c7e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T081530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D60&response-content-disposition=filename%3D"SANSKRITI.png"&response-content-type=image%2Fpng&X-Amz-Signature=68ef1d04f0790dd3b133058e608f790a4ad810dff20f0a2f1db54c16a9117f01' width={120} height={120} alt="mmt" />
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src='https://i.imgur.com/QlmhSEq.png' width={120} height={120} alt="mmt" />
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="h4 text-xl text-gray-400 text-center ">Each month, we deliver a curated selection of authentic Indian snacks and treats right to your door. 
                 From savory samosas to sweet ladoos, our boxes are filled with traditional delights and unique flavors that showcase India’s culinary heritage.
