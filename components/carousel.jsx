@@ -33,6 +33,7 @@ export default function TravelSlider() {
 
 
   return (
+    <div className='section'>
     <div className="container">
       <div className="slide" ref={slideRef}>
         <div className="item" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)' }}>
@@ -56,16 +57,16 @@ export default function TravelSlider() {
             <button>See More</button>
           </div>
         </div>
-        <div className="item" style={{ backgroundImage: 'url(https://thrillingtravel.in/wp-content/uploads/2018/02/Golden-Lotus-Pond-at-Meenakshi-Temple.jpg)' }}>
+        <div className="item" style={{ backgroundImage: 'url(https://www.abhibus.com/blog/wp-content/uploads/2023/04/Madurai-Meenakshi-Temple-History-Timings-How-to-Reach.jpg)' }}>
           <div className="content">
             <div className="name">Meenakshi Temple</div>
             <div className="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
             <button>See More</button>
           </div>
         </div>
-        <div className="item" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1631983097767-099c77bf880d?q=80&w=2268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)' }}>
+        <div className="item" style={{ backgroundImage: 'url(https://images.pexels.com/photos/14105979/pexels-photo-14105979.jpeg)' }}>
           <div className="content">
-            <div className="name">Statue of Unity</div>
+            <div className="name">Qutub Minar</div>
             <div className="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
             <button>See More</button>
           </div>
@@ -78,13 +79,13 @@ export default function TravelSlider() {
           </div>
         </div>
       </div>
-
-      <div className="button">
+    </div>
+    <div className="button">
         <button className="prev" onClick={handlePrevClick}>
-          <i className="fa-solid fa-arrow-left"></i>
+            &lt;
         </button>
         <button className="next" onClick={handleNextClick}>
-          <i className="fa-solid fa-arrow-right"></i>
+            &gt;
         </button>
       </div>
     </div>

@@ -4,6 +4,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/3d-parallax";
 import { product } from "@/components/data.json";
 
 function Modal({ setOpenModal }) {
+  const [isFadingOut, setIsFadingOut] = useState(false);
   const [selectedContent, setSelectedContent] = useState("delhi");
 
   // Content for different selections
@@ -25,17 +26,22 @@ function Modal({ setOpenModal }) {
     }
   };
 
+  const handleClose = () => {
+    setIsFadingOut(true); // Start fade-out animation
+    setTimeout(() => {
+    setOpenModal(false); // Close modal after animation
+    }, 500); // Match duration of fade-out animation (0.5s)
+  };
+
   const currentContent = content[selectedContent];
 
   return (
-    <div className="modalBackground">
+    <div className={`modalBackground ${isFadingOut ? 'fade-out' : ''}`}>
       <div className="modalContainer">
         {/* Close button on top left */}
         <div className="titleCloseBtn">
           <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
+            onClick={handleClose}
           >
             X
           </button>
@@ -72,9 +78,7 @@ function Modal({ setOpenModal }) {
         {/* Footer with Close button */}
         <div className="footer">
           <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
+            onClick={handleClose}
             id="cancelBtn"
           >
             Close

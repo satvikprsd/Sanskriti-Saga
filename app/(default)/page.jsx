@@ -6,6 +6,7 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
+import Zigzag2 from '@/components/zigzag2'
 import Testimonials from '@/components/testimonials'
 import HorizontalCardCollection from '@/components/horizontalcardcollection'
 import Earth from '@/public/Earth'
@@ -73,15 +74,14 @@ export default function Home() {
         </Canvas>
       </div>
       <TransparentPage />    
-      {/* Translucent content overlay */}
       <div className="content-overlay">
         {modalOpen && <Modal setOpenModal={setModalOpen} />}
         <Hero />
-        <Features />
+        <HorizontalCardCollection />
         <Carousel />
         <Zigzag />
-        <Zigzag />
-        <HorizontalCardCollection />
+        <Zigzag2 />
+        <Features />
         <Testimonials />
         <Newsletter />
       </div>

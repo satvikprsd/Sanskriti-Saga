@@ -108,10 +108,12 @@
 }
 
 .scroll-button.left {
+  font-size: 2rem;
   left: 10px;
 }
 
 .scroll-button.right {
+  font-size: 2rem;
   right: 10px;
 }
 
