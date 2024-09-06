@@ -10,8 +10,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">SpiceCrate (Sanskriti Saga)</h2>
+            <p className="text-xl text-gray-400">Experience the rich and diverse tastes of India with SpiceCrate.</p>
           </div>
 
           {/* Items */}
@@ -19,18 +19,16 @@ export default function Features() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
-              </svg>
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src='https://s3.filebin.net/filebin/56f830606502744b529deac7837e0b17443e8481d7d66f748d0f263c1967e65d/0e09c03750e27fcf3858af3d4da167b4ef427867e21154494c4d1cf282355c7e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T081530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D60&response-content-disposition=filename%3D"SANSKRITI.png"&response-content-type=image%2Fpng&X-Amz-Signature=68ef1d04f0790dd3b133058e608f790a4ad810dff20f0a2f1db54c16a9117f01' width={120} height={120} alt="mmt" />
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="h4 text-xl text-gray-400 text-center ">Each month, we deliver a curated selection of authentic Indian snacks and treats right to your door. 
+                From savory samosas to sweet ladoos, our boxes are filled with traditional delights and unique flavors that showcase India’s culinary heritage.
+                Perfect for snack lovers and cultural enthusiasts alike, SpiceCrate brings the essence of Indian cuisine to you, making every bite a delightful journey. Discover the best of India’s snacks with SpiceCrate — where every box is a taste adventure!</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-right" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <Image className="max-w-full mx-auto md:max-w-none h-auto translate-x-40" src={Bokksu} width={540} height={405} alt="Features 02" />
+              <Image className="max-w-full mx-auto md:max-w-none h-auto translate-x-40 translate-y-10" src={Bokksu} width={540} height={405} alt="Features 02" />
             </div>
 
             {/* 3rd item */}
@@ -39,42 +37,23 @@ export default function Features() {
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5" />
-                  <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src="https://hospitalitybizindia.com/wp-content/uploads/2022/08/makemytrip-600.png" width={54} height={40} alt="mmt" />
+              <h4 className="h4 mb-2">Monthly Travel Discounts</h4>
+              <p className="text-lg text-gray-400 text-center">Unlock exclusive monthly discounts on travel packages to India with our partners, such as MakeMyTrip, and make your journey to explore India even more affordable.</p>
             </div>
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
-                  <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png" width={54} height={40} alt="calendar" />
+              <h4 className="h4 mb-2">Cultural Events Calendar</h4>
+              <p className="text-lg text-gray-400 text-center">Receive a curated calendar of cultural events happening across India each month via our newsletter, keeping you in the loop about festivals, fairs, and local celebrations.</p>
             </div>
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-300" d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415" />
-                  <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3" />
-                  <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
-                </g>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src="https://e7.pngegg.com/pngimages/235/500/png-clipart-concert-graphics-event-tickets-air-ticket-orange-logo-thumbnail.png" width={54} height={40} alt="calendar" />
+              <h4 className="h4 mb-2">Early Event Ticket Access</h4>
+              <p className="text-lg text-gray-400 text-center">Gain early access to tickets for global events hosted in India, giving you the advantage of securing your spot before the general public.</p>
             </div>
 
           </div>

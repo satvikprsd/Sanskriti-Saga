@@ -41,7 +41,7 @@ export default function Hero() {
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            video=""
+            video='https://s3.filebin.net/filebin/56f830606502744b529deac7837e0b17443e8481d7d66f748d0f263c1967e65d/4512a21669a48d87054a33d22f5488b5fc389b06a6c471f4ba8b46c44839744a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T071358Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D60&response-content-disposition=filename%3D"India.mp4"&response-content-type=video%2Fmp4&X-Amz-Signature=e0858df2aec55384ca7960e566d8d6f81e114865c415f18dca8094aa5bc555a0'
             videoWidth={1920}
             videoHeight={1080} />
             <p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀

@@ -1,5 +1,6 @@
 body {
     background: none; /* Remove the black background */
+    z-index: 0;
   }
   
   /* The canvas will now automatically fit the viewport */
