@@ -12,17 +12,17 @@ function Modal({ setOpenModal }) {
     delhi: {
       image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS_Rr4tU9gKAAfxoRUp6vfX4xkqMtBARn0A68oZwj2L3U7PoM8fz603TwVGBBR3rcFBej-MtAHpW90xn-WcF3qO1KTlXTDlF83jafBreQ",
       title: "Cuisines",
-      description: "Delhi Tourism, a government undertaking facilitating tourism since 1975 will take you to a guided tour of the Delhi through this website. It explores the wonders of Delhi, its heritage, the art and craft, the diverse cuisine and culture. A symbol of the country's rich past and thriving present, Delhi is a city where ancient and modern blend seamlessly together. It is a place that not only touches your pulse but even fastens it to a frenetic speed. Home to millions of dreams, the city takes on unprecedented responsibilities o realizing dreams bringing people closer and inspiring their throughts."
+      description: 'Rajasthan is known for its Royal Rajwaadi cuisine (also known as Raajsi cuisine) which emanated from the culinary traditions of Royal courts and temples. Signature Rajasthani dishes include Dal Baati Churma, Panchratna Dal, Papad ro Saag, Ker Sangri,[3] Gatte ro Saag. It is also known for its snacks like Bikaneri bhujia, Mirchi bada and Kanda kachauri. Other famous dishes include Dal Baati, malaidar special lassi (lassi) and Lashun ki chutney (hot garlic paste), Mawa lassi from Jodhpur, Alwar ka mawa, Malpauas from Pushkar and rasgulla from Bikaner, "paniya"and "gheriya" from Mewar. The Rajwaadi cuisine is characterized by high usage of dry fruits & milk products like Yogurt for preparing rich gravies, ghee & butter for cooking & frying, mawa & chhena for sweets, usage of Kesar, kewda water & rose water and whole spices like jayaphal, javitri, cardamom etc. for flavoring and aroma.'
     },
     mumbai: {
       image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS_Rr4tU9gKAAfxoRUp6vfX4xkqMtBARn0A68oZwj2L3U7PoM8fz603TwVGBBR3rcFBej-MtAHpW90xn-WcF3qO1KTlXTDlF83jafBreQ",
       title: "Attire",
-      description: "Mumbai is the capital city of the Indian state of Maharashtra. It is the most populous city in India, and one of the largest urban areas in the world. Mumbai is known for its deep natural harbour and the famous Gateway of India."
+      description: "Angrakha is the epitome of the traditional dress of Rajput-Rajasthani men. It is the luxury version of a simple cotton kurta that is worn by common men. The name of the attire literally translates to protecting the body. This upper-body garment is traditionally made from cotton fabric.Bandhgala is also a traditional attire that looks similar to a blazar and is made from rich fabric. It is worn for grand ceremonies and occasions over angrakhas.Dhoti is not just traditional but also the most ancient dress in Rajasthan.Ghagras are the signature dress of Rajasthani women. The bottom part is a long flaunting skirt decorated with different geometric patterned fabric works, mirror work or embroidery or enhanced with broad gota patti borders. Also known as kanchli, choli or kurti, it is an upper-body wear that can be custom-made as per body measurements or comes in different sizes.This piece of cloth is similar to that of a veil and completes the attire of Rajasthani women. It is a long piece of cloth about 3 metres long and around 2 metres wide. The fabric of Chunari or Odhini is very lightweight."
     },
     kolkata: {
       image: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS_Rr4tU9gKAAfxoRUp6vfX4xkqMtBARn0A68oZwj2L3U7PoM8fz603TwVGBBR3rcFBej-MtAHpW90xn-WcF3qO1KTlXTDlF83jafBreQ",
-      title: "Tradition",
-      description: "Kolkata is the capital of the Indian state of West Bengal. It is the principal commercial, cultural, and educational centre of East India. Kolkata is known for its grand colonial architecture, art galleries, and cultural festivals."
+      title: "Handicrafts",
+      description: "When speaking about beauty, brilliance and sheer variety, the handicrafts of Rajasthan are hard to beat. Blue pottery is a well-known craft from Jaipur, Rajasthan. It is a mix of Persian decorative art and Chinese glazing technology. Bandhani textiles are famous in Jaipur, Udaipur, Jodhpur, Pali and Nathdwara for their fabulous print and textures. Scarves, shawls, odhnis and turbans are a few other famous handicrafts of Rajasthan. High-grade Makrana marbles are carved by hand to proffer up the striking pieces that you can find in markets. These traditional handicrafts have Kundan and Meenakari stone works, which are very famous in Rajasthan. The state is famous for its contemporary yet ethnic style of jewellery, ranging from mirrored lac bangles, glass bangles, Kundan jewellery, Silver jewellery, Jadau necklaces, Meenakari jewellery, Thewa jewellery and more. Carpets and rugs are mainly manufactured in Jaipur, Jodhpur, Bikaner, Ganganagar and Udaipur. These hand-knotted handicrafts are best used for home decor. The decoration of the footwear is enhanced by beads, sequin and colourful threads. Jodhpur, Jaipur, Jaisalmer and Barmer are a few famous places that produce traditional leather footwear."
     }
   };
 
@@ -52,7 +52,7 @@ function Modal({ setOpenModal }) {
           <div className="modalSidebar">
                     {/* Modal Title */}
         <div className="modalTitle">
-          <h2>Delhi</h2>
+          <h2>Rajasthan</h2>
         </div>
             <button onClick={() => setSelectedContent("delhi")}>Cuisines</button>
             <button onClick={() => setSelectedContent("mumbai")}>Attire</button>
