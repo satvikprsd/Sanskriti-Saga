@@ -63,7 +63,16 @@ export default function Home() {
       <div>
         {modalOpen && <Modal setOpenModal={setModalOpen} />}
       </div>
-
+      <div className="canvas-background">
+        <Canvas>
+          <ambientLight />
+          <OrbitControls ref={cameraRef} enableZoom={false} enablePan={false} />
+          <Suspense fallback={null}>
+            <Earth />
+          </Suspense>
+          <Environment preset='night' />
+        </Canvas>
+      </div>
       <TransparentPage />    
       <div className="content-overlay">
         {modalOpen && <Modal setOpenModal={setModalOpen} />}
