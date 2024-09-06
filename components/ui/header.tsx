@@ -23,7 +23,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium bg-white text-purple-600 hover:text-black px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>
