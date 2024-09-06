@@ -53,7 +53,7 @@ export default function Features() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src="https://e7.pngegg.com/pngimages/235/500/png-clipart-concert-graphics-event-tickets-air-ticket-orange-logo-thumbnail.png" width={54} height={40} alt="calendar" />
               <h4 className="h4 mb-2">Early Event Ticket Access</h4>
-              <p className="text-lg text-gray-400 text-center">Gain early access to tickets for global events hosted in India, giving you the advantage of securing your spot before the general public.</p>
+              <p className="text-lg text-gray-400 text-center">Gain early access to tickets for global events hosted in India, giving you the advantage of securing your spot before everyone.</p>
             </div>
 
           </div>
