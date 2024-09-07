@@ -2,34 +2,34 @@ import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
 import Logo from '@/public/images/SANSKRITI.png'
+import '@/app/css/style.css'
 
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
+        <Image className="Logo" src={Logo} width={300} height={300} alt="Logo" />
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
-                <Image className="rounded-full" src={Logo} width={300} height={300} alt="Logo" />
-            </Link>
+
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
-            {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
-                <Link
+          <Link
                   href="/signin"
-                  className="font-medium bg-white text-purple-600 hover:text-black px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="signin"
                 >
                   Sign in
                 </Link>
+          <nav className="hidden md:flex md:grow">
+            {/* Desktop sign in links */}
+            <ul className="flex justify-end flex-wrap items-center w-full">
+              <li>
+     
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="/signup" className="signup">
                   Sign up
                 </Link>
               </li>

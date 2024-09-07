@@ -35,7 +35,8 @@ export default function Home() {
     let mappedX = mapValue(coord[0], 690, 2500, 68, 97);
     let mappedY = mapValue(coord[1], 450, 2630, 38, 8);
     console.log([mappedX,mappedY]);
-    if (mappedX > 69.5 && mappedY > 39 && mappedX < 70 && mappedY < 40  && window.scrollY < 400) {
+    if (mappedX > 63.5 && mappedY > 39  && window.scrollY < 400) {
+      console.log(true); 
       setModalOpen(true);
     }
   };
