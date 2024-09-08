@@ -1,3 +1,3 @@
 # Sanskriti-Saga
 
-[a link](https://sanskritisaga.netlify.app)
+[Website](https://sanskritisaga.netlify.app)
