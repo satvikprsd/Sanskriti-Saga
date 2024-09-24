@@ -18,18 +18,20 @@
   
   .section {
     position: relative;
-    width: 1600px;
-    height: 800px;
+    width: 80%;
+    max-width: 1600px;
+    height: 700px;
   }
 
 
   .container {
     position: absolute;
     top: 0%;
-    left: 50%;
+    left: 53%;
     transform: translate(-40%, 0%);
-    width: 1300px; /* Fixed width for the carousel */
-    height: 800px; /* Fixed height for the carousel */
+    width: 100%; /* Fixed width for the carousel */
+    max-width: 1300px;
+    height: 700px; /* Fixed height for the carousel */
     background: #f5f5f5;
     box-shadow: 0 30px 50px #dbdbdb;
     overflow: hidden;
@@ -169,7 +171,7 @@
   
   .button .next {
     position: absolute;
-    transform: translate(190%,-50%);
+    transform: translate(260%,-50%);
     right: 0; /* Move to the extreme right */
   }
   

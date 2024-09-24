@@ -20,9 +20,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <ul>
             <li><a href="#home" onClick={scrollToTop}>Home</a></li>
           <li><a href="#Video" onClick={(e) => handleLinkClick(e, 'hero')}>Video</a></li>
-          <li><a href="#features" onClick={(e) => handleLinkClick(e, 'features')}>Features</a></li>
-          <li><a href="#zigzag" onClick={(e) => handleLinkClick(e, 'zigzag')}>ZigZag</a></li>
-          <li><a href="#testimonials" onClick={(e) => handleLinkClick(e, 'testimonials')}>Testimonials</a></li>
+          <li><a href="#zigzag" onClick={(e) => handleLinkClick(e, 'zigzag')}>Unexplored India</a></li>
+          <li><a href="#features" onClick={(e) => handleLinkClick(e, 'features')}>SpiceCrate</a></li>
+          <li><a href="#testimonials" onClick={(e) => handleLinkClick(e, 'testimonials')}>Testimonials(by team members)</a></li>
         </ul>
       </nav>
     </div>

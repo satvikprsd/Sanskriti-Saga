@@ -37,7 +37,7 @@
   text-decoration: none; /* Remove underline */
   display: inline-flex; /* Align items in a row and center them vertically */
   position: fixed;
-  transform: translate(1610%,0%);
+  transform: translate(1450%,2%);
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -60,7 +60,7 @@
   text-decoration: none; /* Remove underline */
   display: inline-flex; /* Align items in a row and center them vertically */
   position: fixed;
-  transform: translate(130%,48%);
+  transform: translate(-20%,48%);
   height: auto; /* Maintain aspect ratio */
 }
 
